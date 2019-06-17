@@ -1,6 +1,7 @@
 import Axios from 'axios';
 
-const KEY = 'AIzaSyC0mLuWQqbR-9uP_lQdjMV2WRxyWVzHVlM';
+//removed personal api key for security reasons
+const KEY = 'PLACE YOUR KEY HERE';
 
 export default Axios.create({
 	baseURL: 'https://www.googleapis.com/youtube/v3/',
